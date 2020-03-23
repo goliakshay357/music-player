@@ -1,0 +1,59 @@
+*{
+  font-family: 'Roboto', sans-serif;
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.app{
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header{
+  h1{
+    margin: 50px;
+    text-align: center;
+    font-size: 40px;
+
+  }
+}
+
+.pads{
+  background: lightblue;
+  display: flex;
+  width: 100%;
+}
+
+// select all divs inside the pads
+.pads > div {
+  height: 200px;
+  width: 100px;
+  flex: 1;
+}
+
+.pad1{
+  background: rgb(79, 201, 79);
+}
+
+.pad2{
+  background: rgb(245, 176, 48);
+}
+
+.pad3{
+  background-color: rgb(248, 248, 86);
+}
+
+.pad4{
+  background: rgb(98, 98, 247);
+}
+.pad5{
+  background: palevioletred;
+}
+
+.pad6{
+  background: rgb(235, 92, 92);
+}
